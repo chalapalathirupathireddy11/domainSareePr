@@ -150,7 +150,7 @@ const View = () => {
                                     <a>Design</a>
                                 </div>
                             </div>
-                                <a onClick={() =>handleDelete(id)} class="btn btn-style btn-style-3 text-left">Delete</a>
+                                <button onClick={() =>handleDelete(id)} class="btn btn-style btn-style-3 text-left">Delete</button>
                             <a /*th:href="@{/public/register}"*/ href={`/update/${id}`}  class="new-user text-right">Update</a>
                         </div>
                     </div>
